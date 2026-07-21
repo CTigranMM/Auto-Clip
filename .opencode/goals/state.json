@@ -1,0 +1,183 @@
+{
+  "version": 1,
+  "goals": [
+    {
+      "goalId": "07b9811a-4701-4820-8f38-fb0d665d3c40",
+      "runId": "7f83411c-dc7d-4c4f-a0c6-3496440730c5",
+      "condition": "Assume somethings wrong in this plan and fix the errors until you find no flaws",
+      "successCriteria": "",
+      "constraints": "",
+      "mode": "normal",
+      "sessionID": "ses_087eb8e4affewZ6l8bC7lWRSvq",
+      "turnCount": 0,
+      "startedAt": 1784426228335,
+      "pausedAt": 0,
+      "totalTokens": 54092,
+      "usage": {
+        "input": 17231,
+        "output": 3475,
+        "reasoning": 4090,
+        "cacheRead": 827584,
+        "cacheWrite": 0,
+        "cost": 0,
+        "costKnown": true
+      },
+      "options": {
+        "maxTurns": 10,
+        "maxDurationMs": 900000,
+        "maxTokens": 200000,
+        "minDelayMs": 1500,
+        "maxRecentMessages": 50,
+        "noProgressTokenThreshold": 50,
+        "noProgressTurnsBeforePause": 2,
+        "noToolCallTurnsBeforePause": 2,
+        "budgetWrapupRatio": 0.8,
+        "warnTurnsRemaining": 3,
+        "warnDurationMsRemaining": 60000,
+        "warnTokensRemaining": 25000,
+        "maxPromptFailures": 3,
+        "resultRetentionMs": 604800000,
+        "maxStoredResults": 200
+      },
+      "lastStatus": "Auto-continue paused because a new human message arrived; the latest instruction wins. Run /goal resume to continue.",
+      "lastAssistantText": "",
+      "lastAssistantMessageID": "",
+      "lastContinueAt": 0,
+      "lastProgressAt": 1784426355696,
+      "noProgressTurns": 0,
+      "noToolCallTurns": 0,
+      "blockedReason": "",
+      "budgetWrapupSent": false,
+      "stopped": true,
+      "stopReason": "user intervention",
+      "promptFailures": 0,
+      "formatFailures": 0,
+      "executionContext": {
+        "agent": "build",
+        "model": {
+          "providerID": "opencode",
+          "modelID": "big-pickle"
+        }
+      },
+      "continuationClaim": null,
+      "messageIDs": [
+        "msg_f78176a7a0016V5lbiGtl4B6Y7",
+        "msg_f78177351001L5uG8ZkWx91qGJ",
+        "msg_f7817da5d001HkaYzZRytwxn2T",
+        "msg_f781827af001c0dxXv2qH1S2Bc",
+        "msg_f78183c7b001MaYP5DovK2KNZb",
+        "msg_f78184f26001any4RbiwGh7Rxx",
+        "msg_f7818651f001xAic7WhLWW0Oi8",
+        "msg_f7818760e001ID6yKAsfu0oJT4",
+        "msg_f78188955001fJA6mbruFlkc3p",
+        "msg_f7818a0740010uSNfQbbth3Ec4",
+        "msg_f7818af07001l6z7N22SXDqMEm",
+        "msg_f7818c0e4001byeHUQVSVDzzCj",
+        "msg_f7818d02f001Iz5TEbDGuueghE",
+        "msg_f7818dccd001ob4qM2Xd9ME8rY",
+        "msg_f7818ebf10013AqqePqi349MYq",
+        "msg_f7818f89400174QeymL47cuoAz",
+        "msg_f78190e790015Q2YHU0tWJPYsN",
+        "msg_f7819175f001Y36O4cL03W03sx"
+      ],
+      "history": [
+        {
+          "type": "set",
+          "detail": "Goal created with limits: 10 auto-continues, 900s, 200,000 context tokens.",
+          "timestamp": 1784426228336
+        },
+        {
+          "type": "paused",
+          "detail": "Paused immediately when a new human message arrived; latest instruction wins.",
+          "timestamp": 1784426228339
+        }
+      ],
+      "checkpoints": [],
+      "lastCheckpoint": null,
+      "skipNextTerminalCheck": false,
+      "focused": true
+    },
+    {
+      "goalId": "38345e6e-8b8f-49d8-8c0f-c4c60d56c779",
+      "runId": "76c16c52-75f0-4a05-ae15-6af24912fbc8",
+      "condition": "its still like one second find the error and fix it",
+      "successCriteria": "",
+      "constraints": "",
+      "mode": "normal",
+      "sessionID": "ses_087c55aa3ffeb15XYoJkEOH2h2",
+      "turnCount": 0,
+      "startedAt": 1784432621853,
+      "pausedAt": 0,
+      "totalTokens": 87108,
+      "usage": {
+        "input": 324,
+        "output": 1,
+        "reasoning": 31999,
+        "cacheRead": 54784,
+        "cacheWrite": 0,
+        "cost": 0,
+        "costKnown": true
+      },
+      "options": {
+        "maxTurns": 10,
+        "maxDurationMs": 900000,
+        "maxTokens": 200000,
+        "minDelayMs": 1500,
+        "maxRecentMessages": 50,
+        "noProgressTokenThreshold": 50,
+        "noProgressTurnsBeforePause": 2,
+        "noToolCallTurnsBeforePause": 2,
+        "budgetWrapupRatio": 0.8,
+        "warnTurnsRemaining": 3,
+        "warnDurationMsRemaining": 60000,
+        "warnTokensRemaining": 25000,
+        "maxPromptFailures": 3,
+        "resultRetentionMs": 604800000,
+        "maxStoredResults": 200
+      },
+      "lastStatus": "Auto-continue paused because a new human message arrived; the latest instruction wins. Run /goal resume to continue.",
+      "lastAssistantText": "",
+      "lastAssistantMessageID": "",
+      "lastContinueAt": 0,
+      "lastProgressAt": 1784432973843,
+      "noProgressTurns": 0,
+      "noToolCallTurns": 0,
+      "blockedReason": "",
+      "budgetWrapupSent": false,
+      "stopped": true,
+      "stopReason": "user intervention",
+      "promptFailures": 0,
+      "formatFailures": 0,
+      "executionContext": {
+        "agent": "build",
+        "model": {
+          "providerID": "opencode",
+          "modelID": "big-pickle"
+        }
+      },
+      "continuationClaim": null,
+      "messageIDs": [
+        "msg_f7878f92b001P46ovhjTg75SCW"
+      ],
+      "history": [
+        {
+          "type": "set",
+          "detail": "Goal created with limits: 10 auto-continues, 900s, 200,000 context tokens.",
+          "timestamp": 1784432621853
+        },
+        {
+          "type": "paused",
+          "detail": "Paused immediately when a new human message arrived; latest instruction wins.",
+          "timestamp": 1784432621858
+        }
+      ],
+      "checkpoints": [],
+      "lastCheckpoint": null,
+      "skipNextTerminalCheck": false,
+      "focused": true
+    }
+  ],
+  "results": [],
+  "archives": [],
+  "orderedSessions": []
+}

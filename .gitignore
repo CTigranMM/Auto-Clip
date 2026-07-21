@@ -1,0 +1,20 @@
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# AutoClip media & output directories
+Raw/*.mp4
+Raw/*.mkv
+Raw/*.wav
+Clips/*
+!Clips/.gitkeep
+
+# IDE & system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
