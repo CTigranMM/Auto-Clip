@@ -6,18 +6,18 @@ It transcribes audio with word-level precision, cuts out dead air and filler wor
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🎙️ **Word-Level Transcription**: Powered by `faster-whisper` running locally.
-- ✂️ **Automatic Dead-Air & Filler Removal**: Automatically detects and trims gaps larger than 1.5 seconds as well as filler words ("um", "uh", "erm").
-- 🤖 **Local AI Viral Scoring**: Uses local LLMs (via Ollama) to analyze transcript chunks and score virality out of 20.
-- 📱 **9:16 Vertical Auto-Cropping**: Centers horizontal video into standard mobile vertical format (1080x1920).
-- 🎬 **Dynamic Zooming**: Adds subtle initial zoom hooks and punch-in zooms at jump cuts.
-- 💬 **Kinetic Subtitles**: Highlights speaking text with bold, high-contrast subtitles styled for short-form media.
+-  **Word-Level Transcription**: Powered by `faster-whisper` running locally.
+-  **Automatic Dead-Air & Filler Removal**: Automatically detects and trims gaps larger than 1.5 seconds as well as filler words ("um", "uh", "erm").
+-  **Local AI Viral Scoring**: Uses local LLMs (via Ollama) to analyze transcript chunks and score virality out of 20.
+-  **9:16 Vertical Auto-Cropping**: Centers horizontal video into standard mobile vertical format (1080x1920).
+-  **Dynamic Zooming**: Adds subtle initial zoom hooks and punch-in zooms at jump cuts.
+-  **Kinetic Subtitles**: Highlights speaking text with bold, high-contrast subtitles styled for short-form media.
 
 ---
 
-## 📋 Prerequisites
+##  Prerequisites
 
 1. **Python**: Python 3.10 or higher.
 2. **FFmpeg**: Must be installed and accessible in your system's `PATH`.
@@ -32,7 +32,7 @@ It transcribes audio with word-level precision, cuts out dead air and filler wor
 
 ---
 
-## 📥 Installation
+##  Installation
 
 1. Clone or download this repository.
 2. Install the required Python dependencies:
@@ -63,7 +63,7 @@ AutoClip/
 
 ---
 
-## 🎬 How to Use
+##  How to Use
 
 1. **Add Raw Videos**: Place your long-form `.mp4` or `.mkv` video files into the `Raw/` directory.
 2. **Start Ollama**: Make sure Ollama is running (`ollama serve` or background app).
@@ -78,6 +78,6 @@ AutoClip/
 
 ---
 
-## 📄 License
+##  License
 
 MIT License.
